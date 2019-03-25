@@ -1,28 +1,27 @@
 {
-  "name": "@celeri/query-parser",
+  "name": "@celeri/caching",
   "version": "1.0.0",
-  "description": "Query string parsing middleware for Celeri",
+  "description": "Cache-Control middleware for Celeri",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc --build tsconfig.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/celeri-server/query-parser.git"
+    "url": "git+https://github.com/celeri-server/caching.git"
   },
   "keywords": [
     "celeri",
-    "querystring",
-    "query",
-    "parser",
+    "cache",
+    "cache-control",
     "middleware"
   ],
   "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/celeri-server/query-parser/issues"
+    "url": "https://github.com/celeri-server/caching/issues"
   },
-  "homepage": "https://github.com/celeri-server/query-parser#readme",
+  "homepage": "https://github.com/celeri-server/caching#readme",
   "dependencies": {
     "tslint": "^5.14.0",
     "typescript": "^3.3.4000"
