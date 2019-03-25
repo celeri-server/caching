@@ -1,0 +1,35 @@
+{
+  "name": "@celeri/query-parser",
+  "version": "2.0.0",
+  "description": "Query string parsing middleware for Celeri",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celeri-server/query-parser.git"
+  },
+  "keywords": [
+    "celeri",
+    "querystring",
+    "query",
+    "parser",
+    "middleware"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celeri-server/query-parser/issues"
+  },
+  "homepage": "https://github.com/celeri-server/query-parser#readme",
+  "dependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@celeri/middleware-pipeline": "^2.0.3",
+    "@celeri/http-server": "^2.0.2",
+    "@types/node": "^11.11.4"
+  }
+}
